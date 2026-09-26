@@ -1,11 +1,11 @@
-/* tool-cage · Elucenia · https://github.com/Elucenia/tool-cage
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-cage · ELUCENIA · https://github.com/Elucenia/tool-cage
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"cage","title":"Questionário CAGE","fields":[["c","<strong>C</strong> – Alguma vez o(a) Sr.(a) sentiu que deveria diminuir a quantidade de bebida ou parar de beber?","chk",{"pts":1}],["a","<strong>A</strong> – As pessoas o(a) aborrecem porque criticam o seu modo de beber?","chk",{"pts":1}],["g","<strong>G</strong> – O(a) Sr.(a) se sente culpado(a) pela maneira com que costuma beber?","chk",{"pts":1}],["e","<strong>E</strong> – O(a) Sr.(a) costuma beber pela manhã para diminuir o nervosismo ou a ressaca?","chk",{"pts":1}]],"config":{"unit":"de 4","label":"CAGE","fields":[["c","chk",1],["a","chk",1],["g","chk",1],["e","chk",1]],"bands":[[0,"low","Rastreamento negativo","Um CAGE negativo não exclui uso de risco atual: prefira o AUDIT para medir o consumo."],[1,"mid","Uma resposta positiva: abaixo do ponto de corte","Pergunte sobre quantidade e frequência do consumo (AUDIT)."],[2,"high","Rastreamento positivo (≥ 2): suspeita de abuso ou dependência de álcool","Instrumento de rastreamento: confirme com avaliação clínica."]]},"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
