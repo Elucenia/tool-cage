@@ -3,93 +3,41 @@
     "id": "cage",
     "title": "Questionário CAGE",
     "short": "Rastreamento rápido de abuso ou dependência de álcool",
+    "desc": "Questionário CAGE, versão brasileira: 4 perguntas para rastrear abuso ou dependência de álcool; 2 ou mais respostas positivas indicam investigação.",
+    "lead": "Quatro perguntas rápidas para rastrear abuso ou dependência de álcool ao longo da vida, validadas em português por Masur e Monteiro.",
+    "kind": "Escore",
     "spec": [
       "psiquiatria",
       "clinica-medica",
       "medicina-de-familia-e-comunidade"
     ],
-    "desc": "Questionário CAGE, versão brasileira: 4 perguntas para rastrear abuso ou dependência de álcool; 2 ou mais respostas positivas indicam investigação.",
-    "lead": "Quatro perguntas rápidas para rastrear abuso ou dependência de álcool ao longo da vida, validadas em português por Masur e Monteiro.",
     "fields": [
       [
         "c",
         "<strong>C</strong> – Alguma vez o(a) Sr.(a) sentiu que deveria diminuir a quantidade de bebida ou parar de beber?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "a",
         "<strong>A</strong> – As pessoas o(a) aborrecem porque criticam o seu modo de beber?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "g",
         "<strong>G</strong> – O(a) Sr.(a) se sente culpado(a) pela maneira com que costuma beber?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "e",
         "<strong>E</strong> – O(a) Sr.(a) costuma beber pela manhã para diminuir o nervosismo ou a ressaca?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ]
     ],
-    "score": {
-      "label": "CAGE",
-      "unit": "de 4",
-      "bands": [
-        [
-          0,
-          "low",
-          "Rastreamento negativo",
-          "Um CAGE negativo não exclui uso de risco atual: prefira o AUDIT para medir o consumo."
-        ],
-        [
-          1,
-          "mid",
-          "Uma resposta positiva: abaixo do ponto de corte",
-          "Pergunte sobre quantidade e frequência do consumo (AUDIT)."
-        ],
-        [
-          2,
-          "high",
-          "Rastreamento positivo (≥ 2): suspeita de abuso ou dependência de álcool",
-          "Instrumento de rastreamento: confirme com avaliação clínica."
-        ]
-      ]
-    },
     "formula": "<p>Um ponto por resposta “sim”: <strong>C</strong>ut down (diminuir), <strong>A</strong>nnoyed (aborrecido com críticas), <strong>G</strong>uilty (culpa), <strong>E</strong>ye-opener (beber ao acordar). Ponto de corte: ≥ 2.</p>",
-    "table": [
-      [
-        "Respostas positivas",
-        "Interpretação"
-      ],
-      [
-        "0 a 1",
-        "Rastreamento negativo"
-      ],
-      [
-        "2 a 4",
-        "Rastreamento positivo: investigar abuso ou dependência"
-      ]
-    ],
-    "table_note": "Ponto de corte de 2 respostas positivas, adotado na validação brasileira em pacientes psiquiátricos internados (Masur e Monteiro 1983).",
-    "tips": [
-      "Faça as perguntas do CAGE <strong>antes</strong> de perguntar quanto a pessoa bebe: a ordem reduz a defensividade.",
-      "O CAGE se refere à vida toda e detecta mal o uso de risco atual sem dependência (ex.: binge em jovens): nesses casos use o AUDIT.",
-      "Uma resposta positiva para “beber pela manhã” (E) é sugestiva de dependência mesmo isolada.",
-      "Rastreamento positivo pede avaliação de consequências clínicas: enzimas hepáticas, VCM, pressão arterial, sintomas de abstinência."
-    ],
     "sources": [
       [
         "Ewing JA. Detecting alcoholism: the CAGE questionnaire. JAMA, 1984.",
@@ -133,54 +81,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "de 4",
-      "label": "CAGE",
-      "fields": [
-        [
-          "c",
-          "chk",
-          1
-        ],
-        [
-          "a",
-          "chk",
-          1
-        ],
-        [
-          "g",
-          "chk",
-          1
-        ],
-        [
-          "e",
-          "chk",
-          1
-        ]
-      ],
-      "bands": [
-        [
-          0,
-          "low",
-          "Rastreamento negativo",
-          "Um CAGE negativo não exclui uso de risco atual: prefira o AUDIT para medir o consumo."
-        ],
-        [
-          1,
-          "mid",
-          "Uma resposta positiva: abaixo do ponto de corte",
-          "Pergunte sobre quantidade e frequência do consumo (AUDIT)."
-        ],
-        [
-          2,
-          "high",
-          "Rastreamento positivo (≥ 2): suspeita de abuso ou dependência de álcool",
-          "Instrumento de rastreamento: confirme com avaliação clínica."
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -189,17 +89,206 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T13:08:00.439Z",
+      "total": 16,
+      "passed": 16,
+      "evidencePath": "reports/review-20261003/eight-additive-source-oracles-final23.json",
+      "evidenceSha256": "52360ca4cccc7b095b0de3b199fffda2e646b7a4dc92f325aa71eec61c4c7dfe",
+      "peerEvidencePath": "reports/review-20261003/eight-additive-source-oracles-independent-review-final23.json",
+      "peerEvidenceSha256": "64ff546626e0559b4f05f5eceb47e9cae355bfe7bc67f82744dbc3db60644f14",
+      "scope": "Entered discrete-point sum/count only. Original/full method conformance, input clinical adjudication, diagnostic/management decisions, prognosis, professional translations, rights and release approval are outside this test. Source-access and variant limits are retained.",
+      "source": {
+        "keys": [
+          "c",
+          "a",
+          "g",
+          "e"
+        ],
+        "kind": "boolean",
+        "domain": [
+          false,
+          true
+        ],
+        "url": "https://fitbir.nih.gov/dictionary/publicData/dataElementAction!view.action?dataElementName=CAGETotalScore&publicArea=true&style.key=fitbir-style",
+        "edition": "FITBIR common data element CAGETotalScorev1.1, citing Ewing1984",
+        "locator": "Guidelines/Instructions and minimum/maximum0/4",
+        "access": "Primary federal data-dictionary definition directly read2026-10-04: each item0/1, four-item total. Original Ewing1984 full paper and screening interpretation not approved; direct NIAAA instrument PDF retrieval failed."
+      },
+      "implementations": [
+        {
+          "app": "website",
+          "id": "cage",
+          "sha256": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf"
+        },
+        {
+          "app": "dashboard",
+          "id": "cage",
+          "sha256": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf"
+        },
+        {
+          "app": "command-center",
+          "id": "cage",
+          "sha256": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf"
+        }
+      ],
+      "qualifications": [],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "CAGE/Ewing 1984:4 perguntasbinárias 0–4, corte≥2; PTMasur Monteiro 1983",
+    "implementationVersion": "cage@native-2026-10-03+bff1bee64479",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/6471323/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Um ponto por resposta “sim”: C ut down (diminuir), A nnoyed (aborrecido com críticas), G uilty (culpa), E ye-opener (beber ao acordar). Ponto de corte: ≥ 2.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "c",
+            "label": "<strong>C</strong> – Alguma vez o(a) Sr.(a) sentiu que deveria diminuir a quantidade de bebida ou parar de beber?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "a",
+            "label": "<strong>A</strong> – As pessoas o(a) aborrecem porque criticam o seu modo de beber?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "g",
+            "label": "<strong>G</strong> – O(a) Sr.(a) se sente culpado(a) pela maneira com que costuma beber?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "e",
+            "label": "<strong>E</strong> – O(a) Sr.(a) costuma beber pela manhã para diminuir o nervosismo ou a ressaca?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          }
+        ],
+        "hash": "94a473fe10d5074849ab5df1f1a1a3ddc89759a3e1c615aeefc4fb74661e2c88"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Ewing JA. Detecting alcoholism: the CAGE questionnaire. JAMA, 1984.",
+          "url": "https://doi.org/10.1001/jama.1984.03350140051025",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Detecting alcoholism. The CAGE questionnaire.",
+            "year": "1984",
+            "firstPublicationDate": "1984-10-01",
+            "doi": "10.1001/jama.252.14.1905",
+            "pmid": "6471323",
+            "journal": "JAMA",
+            "authors": "Ewing JA."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/6471323/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "19446df6e9d552df3882c182bf5ac18641edd09d24853671ea5b8616562d8a92",
+          "matchedBy": "exact-publication-title",
+          "publisherDepositedMetadata": {
+            "title": "Detecting Alcoholism",
+            "doi": "10.1001/jama.1984.03350140051025",
+            "year": 1984,
+            "publisher": "American Medical Association (AMA)",
+            "journal": "JAMA",
+            "authors": [
+              "John A. Ewing"
+            ],
+            "url": "https://doi.org/10.1001/jama.1984.03350140051025"
+          },
+          "doiAliasOrMismatchRequiresReview": {
+            "listed": "https://doi.org/10.1001/jama.1984.03350140051025",
+            "indexed": "10.1001/jama.252.14.1905",
+            "crossrefListedDoiMetadataRead": true
+          }
+        },
+        {
+          "citation": "Masur J, Monteiro MG. Validation of the \"CAGE\" alcoholism screening test in a Brazilian psychiatric inpatient hospital setting. Braz J Med Biol Res, 1983.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6652293/",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Validation of the \"CAGE\" alcoholism screening test in a Brazilian psychiatric inpatient hospital setting.",
+            "year": "1983",
+            "firstPublicationDate": "1983-10-01",
+            "pmid": "6652293",
+            "journal": "Brazilian journal of medical and biological research = Revista brasileira de pesquisas medicas e biologicas",
+            "authors": "Masur J, Monteiro MG."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/6652293/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "2c1dc57ba048296b4dd971281b886eb7aaded8629599cdeb3c2f468a8fcc6060",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T13:08:00.439Z",
+        "total": 16,
+        "passed": 16,
+        "evidencePath": "reports/review-20261003/eight-additive-source-oracles-final23.json",
+        "scope": "Entered discrete-point sum/count only. Original/full method conformance, input clinical adjudication, diagnostic/management decisions, prognosis, professional translations, rights and release approval are outside this test. Source-access and variant limits are retained.",
+        "caseEvidence": {
+          "schema": "independentArithmeticTest.cases",
+          "recordedEvidenceSha256": "de0fe83a6ef11bae6b666f5cfa9d783594f1f6eca3d31bad96bc5b3b1ccf97df"
+        }
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf"
+    },
+    "limits": "Questionário breve de rastreamento de problemas com álcool, seguido de avaliação clínica. A validação brasileira citada envolveu homens internados em hospital psiquiátrico; seu desempenho não deve ser presumido idêntico em outras populações. A composição dessa coorte não é uma regra universal de exclusão por sexo.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.113Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Formulário integral original e direitos de reprodução não foram conferidos."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/cage/calculator.js",
+    "bytes": 5029,
+    "sha256": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "8cafba3e68ea474713c98ade482117961a8d91c2651cc8719914ab6dbfeb290c",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 16,
+      "sha256": "6ea1c2ed004c60ddaf763eada626747d563e4bda23bb305cccaf5c8ebfcd1660",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

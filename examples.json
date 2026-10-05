@@ -1,45 +1,114 @@
 [
   {
-    "label": "Nenhuma resposta positiva: 0",
-    "input": {},
+    "id": "cage",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Nenhuma resposta positiva: 0",
+    "originalInput": [],
+    "input": {
+      "c": false,
+      "a": false,
+      "g": false,
+      "e": false
+    },
     "expected": {
       "score": 0,
       "level": "low"
     },
-    "originalInput": [],
-    "expandedZeroOptions": []
+    "recordedResult": {
+      "main": [
+        "0",
+        "de 4"
+      ],
+      "label": "CAGE",
+      "raw": {
+        "score": 0
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Só sente que deveria diminuir: 1",
-    "input": {
+    "id": "cage",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Só sente que deveria diminuir: 1",
+    "originalInput": {
       "c": true
+    },
+    "input": {
+      "c": true,
+      "a": false,
+      "g": false,
+      "e": false
     },
     "expected": {
       "score": 1,
       "level": "mid"
     },
-    "originalInput": {
-      "c": true
+    "recordedResult": {
+      "main": [
+        "1",
+        "de 4"
+      ],
+      "label": "CAGE",
+      "raw": {
+        "score": 1
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Diminuir, críticas e culpa: 3 (positivo)",
-    "input": {
+    "id": "cage",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Diminuir, críticas e culpa: 3 (positivo)",
+    "originalInput": {
       "c": true,
       "a": true,
       "g": true
+    },
+    "input": {
+      "c": true,
+      "a": true,
+      "g": true,
+      "e": false
     },
     "expected": {
       "score": 3,
       "level": "high",
       "verdict": "positivo"
     },
-    "originalInput": {
-      "c": true,
-      "a": true,
-      "g": true
+    "recordedResult": {
+      "main": [
+        "3",
+        "de 4"
+      ],
+      "label": "CAGE",
+      "raw": {
+        "score": 3
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]
