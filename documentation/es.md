@@ -69,3 +69,28 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Cribado negativo
+
+Un CAGE negativo no excluye un consumo de riesgo actual: prefiera el AUDIT para medir el consumo.
+
+
+### 2
+
+Una respuesta positiva: por debajo del punto de corte
+
+Pregunte por la cantidad y la frecuencia del consumo (AUDIT).
+
+
+### 3
+
+Cribado positivo (≥ 2): sospecha de abuso o dependencia del alcohol
+
+Instrumento de cribado: confirmar con evaluación clínica.
+

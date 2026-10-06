@@ -69,3 +69,28 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Negative screening
+
+A negative CAGE does not exclude current risky use: prefer AUDIT to measure consumption.
+
+
+### 2
+
+One positive answer: below the cutoff
+
+Ask about amount and frequency of consumption (AUDIT).
+
+
+### 3
+
+Positive screening (≥ 2): suspicion of alcohol abuse or dependence
+
+Screening instrument: confirm with clinical evaluation.
+

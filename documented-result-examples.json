@@ -1,0 +1,537 @@
+{
+  "id": "cage",
+  "implementationVersion": "cage@native-2026-10-05+6f511a55e56b",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento negativo",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Um CAGE negativo não exclui uso de risco atual: prefira o AUDIT para medir o consumo.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Uma resposta positiva: abaixo do ponto de corte",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Pergunte sobre quantidade e frequência do consumo (AUDIT).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento positivo (≥ 2): suspeita de abuso ou dependência de álcool",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: confirme com avaliação clínica.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negative screening",
+            "locale": "en",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "A negative CAGE does not exclude current risky use: prefer AUDIT to measure consumption.",
+            "locale": "en",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "One positive answer: below the cutoff",
+            "locale": "en",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "Ask about amount and frequency of consumption (AUDIT).",
+            "locale": "en",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positive screening (≥ 2): suspicion of alcohol abuse or dependence",
+            "locale": "en",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "Screening instrument: confirm with clinical evaluation.",
+            "locale": "en",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Cribado negativo",
+            "locale": "es",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "Un CAGE negativo no excluye un consumo de riesgo actual: prefiera el AUDIT para medir el consumo.",
+            "locale": "es",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Una respuesta positiva: por debajo del punto de corte",
+            "locale": "es",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "Pregunte por la cantidad y la frecuencia del consumo (AUDIT).",
+            "locale": "es",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Cribado positivo (≥ 2): sospecha de abuso o dependencia del alcohol",
+            "locale": "es",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "Instrumento de cribado: confirmar con evaluación clínica.",
+            "locale": "es",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage négatif",
+            "locale": "fr",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "Un CAGE négatif n’exclut pas une consommation à risque actuelle : privilégiez l’AUDIT pour mesurer la consommation.",
+            "locale": "fr",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Une réponse positive : en dessous du seuil",
+            "locale": "fr",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "Demandez la quantité et la fréquence de consommation (AUDIT).",
+            "locale": "fr",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage positif (≥ 2) : suspicion d’abus ou de dépendance à l’alcool",
+            "locale": "fr",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "Outil de dépistage : confirmer par une évaluation clinique.",
+            "locale": "fr",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negatives Screening",
+            "locale": "de",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "Ein negatives CAGE schließt einen aktuellen Risikokonsum nicht aus: bevorzugen Sie den AUDIT zur Erfassung des Konsums.",
+            "locale": "de",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Eine positive Antwort: unterhalb des Cut-offs",
+            "locale": "de",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "Fragen Sie nach Menge und Häufigkeit des Konsums (AUDIT).",
+            "locale": "de",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positives Screening (≥ 2): Verdacht auf Alkoholmissbrauch oder -abhängigkeit",
+            "locale": "de",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "Screening-Instrument: durch klinische Beurteilung bestätigen.",
+            "locale": "de",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening negativo",
+            "locale": "it",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "Un CAGE negativo non esclude un uso a rischio attuale: preferire l’AUDIT per misurare il consumo.",
+            "locale": "it",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Una risposta positiva: al di sotto del punto di cutoff",
+            "locale": "it",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "Chiedere quantità e frequenza del consumo (AUDIT).",
+            "locale": "it",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening positivo (≥ 2): sospetto di abuso o dipendenza da alcol",
+            "locale": "it",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "Strumento di screening: confermare con valutazione clinica.",
+            "locale": "it",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي سلبي",
+            "locale": "ar",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "نتيجة CAGE السلبية لا تستبعد وجود استخدام حالي محفوف بالمخاطر: يُفضَّل استخدام AUDIT لقياس الاستهلاك.",
+            "locale": "ar",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "إجابة إيجابية واحدة: دون نقطة القطع",
+            "locale": "ar",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "اسأل عن كمية وتواتر الاستهلاك (AUDIT).",
+            "locale": "ar",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي إيجابي (≥ 2): اشتباه في إساءة استخدام الكحول أو الاعتماد عليه",
+            "locale": "ar",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "أداة تحرّي: تأكّد ذلك بالتقييم السريري.",
+            "locale": "ar",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阴性",
+            "locale": "zh",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "CAGE阴性并不排除当前的风险性使用：应优先使用AUDIT来评估摄入量。",
+            "locale": "zh",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "一项回答为阳性：低于截断值",
+            "locale": "zh",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "询问摄入量和频率（AUDIT）。",
+            "locale": "zh",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阳性（≥ 2）：怀疑酒精滥用或依赖",
+            "locale": "zh",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "筛查工具：请通过临床评估确认。",
+            "locale": "zh",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陰性",
+            "locale": "ja",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "CAGEが陰性でも現在のリスクのある使用を除外できません。摂取量の評価にはAUDITを優先してください。",
+            "locale": "ja",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "陽性回答1つ：カットオフ未満",
+            "locale": "ja",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "摂取量と頻度を尋ねてください（AUDIT）。",
+            "locale": "ja",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陽性（≥ 2）：アルコール乱用または依存が疑われる",
+            "locale": "ja",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "スクリーニング用の手段です。臨床評価で確認してください。",
+            "locale": "ja",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Nenhuma resposta positiva: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "स्क्रीनिंग नकारात्मक",
+            "locale": "hi",
+            "template": "documented-authored-f358fcfba1dd786331ea"
+          },
+          "note": {
+            "text": "नकारात्मक CAGE वर्तमान जोखिमपूर्ण उपयोग को बाहर नहीं करता: सेवन मापने के लिए AUDIT को प्राथमिकता दें।",
+            "locale": "hi",
+            "template": "documented-authored-38cb748f355bb88009ae"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Só sente que deveria diminuir: 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "एक सकारात्मक उत्तर: कट-ऑफ से नीचे",
+            "locale": "hi",
+            "template": "documented-authored-7e5351bf316d38b07291"
+          },
+          "note": {
+            "text": "सेवन की मात्रा और आवृत्ति पूछें (AUDIT)।",
+            "locale": "hi",
+            "template": "documented-authored-198d63f5d0d4516143df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Diminuir, críticas e culpa: 3 (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "सकारात्मक स्क्रीनिंग (≥ 2): शराब के दुरुपयोग या निर्भरता का संदेह",
+            "locale": "hi",
+            "template": "documented-authored-fa5ba95fc3e7cca7858d"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: नैदानिक मूल्यांकन से पुष्टि करें।",
+            "locale": "hi",
+            "template": "documented-authored-486c9ae379641aaf5489"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

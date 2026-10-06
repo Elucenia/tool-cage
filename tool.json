@@ -140,7 +140,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "CAGE/Ewing 1984:4 perguntasbinárias 0–4, corte≥2; PTMasur Monteiro 1983",
-    "implementationVersion": "cage@native-2026-10-03+bff1bee64479",
+    "implementationVersion": "cage@native-2026-10-05+6f511a55e56b",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/6471323/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -258,7 +258,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf"
+      "implementationHash": "6f511a55e56b8303fe7b6e8fefc4b9ec6f257f370fa6ffa230da32b1acf3a724",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "cage@native-2026-10-03+bff1bee64479",
+          "previousImplementationHash": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf",
+          "implementationHash": "6f511a55e56b8303fe7b6e8fefc4b9ec6f257f370fa6ffa230da32b1acf3a724",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "94a473fe10d5074849ab5df1f1a1a3ddc89759a3e1c615aeefc4fb74661e2c88",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Questionário breve de rastreamento de problemas com álcool, seguido de avaliação clínica. A validação brasileira citada envolveu homens internados em hospital psiquiátrico; seu desempenho não deve ser presumido idêntico em outras populações. A composição dessa coorte não é uma regra universal de exclusão por sexo.",
     "sourceLimitEvidence": {
@@ -277,15 +305,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/cage/calculator.js",
-    "bytes": 5029,
-    "sha256": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf"
+    "bytes": 5234,
+    "sha256": "6f511a55e56b8303fe7b6e8fefc4b9ec6f257f370fa6ffa230da32b1acf3a724"
   },
-  "sourceToolSha256": "8cafba3e68ea474713c98ade482117961a8d91c2651cc8719914ab6dbfeb290c",
+  "sourceToolSha256": "451f38ba97faa3e612fb973613a6e8076674f43230af4538424e0d7df7eb9c28",
   "omittedFullReferenceBanks": [
     {
       "rows": 16,
       "sha256": "6ea1c2ed004c60ddaf763eada626747d563e4bda23bb305cccaf5c8ebfcd1660",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

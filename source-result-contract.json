@@ -1,0 +1,173 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "cage",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "d7ef9b23a4d523311e3b4ff37047461ce53273de",
+    "oldEngineSha256": "bff1bee644793d07219721f47a3a721d3aa89ae1da35f6ea4f6b5ff123ae4cbf",
+    "currentEngineSha256": "6f511a55e56b8303fe7b6e8fefc4b9ec6f257f370fa6ffa230da32b1acf3a724"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Nenhuma resposta positiva: 0",
+      "input": {
+        "c": false,
+        "a": false,
+        "g": false,
+        "e": false
+      },
+      "publicOutput": {
+        "id": "cage",
+        "main": [
+          "0",
+          "de 4"
+        ],
+        "label": "CAGE",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 0,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 4"
+        ],
+        "label": "CAGE",
+        "level": "low",
+        "verdict": "Rastreamento negativo",
+        "note": "Um CAGE negativo não exclui uso de risco atual: prefira o AUDIT para medir o consumo.",
+        "raw": {
+          "score": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Só sente que deveria diminuir: 1",
+      "input": {
+        "c": true,
+        "a": false,
+        "g": false,
+        "e": false
+      },
+      "publicOutput": {
+        "id": "cage",
+        "main": [
+          "1",
+          "de 4"
+        ],
+        "label": "CAGE",
+        "raw": {
+          "score": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 1,
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "1",
+          "de 4"
+        ],
+        "label": "CAGE",
+        "level": "mid",
+        "verdict": "Uma resposta positiva: abaixo do ponto de corte",
+        "note": "Pergunte sobre quantidade e frequência do consumo (AUDIT).",
+        "raw": {
+          "score": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Diminuir, críticas e culpa: 3 (positivo)",
+      "input": {
+        "c": true,
+        "a": true,
+        "g": true,
+        "e": false
+      },
+      "publicOutput": {
+        "id": "cage",
+        "main": [
+          "3",
+          "de 4"
+        ],
+        "label": "CAGE",
+        "raw": {
+          "score": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 3,
+        "level": "high",
+        "verdict": "positivo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3",
+          "de 4"
+        ],
+        "label": "CAGE",
+        "level": "high",
+        "verdict": "Rastreamento positivo (≥ 2): suspeita de abuso ou dependência de álcool",
+        "note": "Instrumento de rastreamento: confirme com avaliação clínica.",
+        "raw": {
+          "score": 3
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}
